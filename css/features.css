@@ -1,0 +1,18 @@
+.features {
+  background: #ffffff;
+}
+
+.features-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.features-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: rgba(67, 68, 85, 1);
+}

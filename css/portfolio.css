@@ -1,0 +1,18 @@
+.portfolio-item {
+  background: #ffffff;
+}
+
+.portfolio-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.portfolio-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}

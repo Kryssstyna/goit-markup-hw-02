@@ -1,0 +1,58 @@
+/* region Base style */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+/* endregion Base style */
+
+/* region common style  */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4x;
+}
+/* endregion common style  */
