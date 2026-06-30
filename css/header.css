@@ -8,7 +8,7 @@
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-nav-link:active {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .header-adress-link {
@@ -17,7 +17,7 @@
   color: #434455;
 }
 
-.header-adress-link:hover 
+.header-adress-link:hover, 
 .header-adress-link:focus {
   color: var(--accent-color);
 }

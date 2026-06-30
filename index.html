@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Effective Solutions for Your Business" />
-    <title class="logo">WebStudio</title>
+    <title>WebStudio</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
 
     <!-- Normalise -->
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
 
     <!-- Custom style  -->
@@ -25,20 +25,20 @@
   </head>
 
   <body>
-    <!-- #rehion Header -->
+    <!-- #region Header -->
     <header id="header">
       <a href="./index.html" class="logo"
         ><span class="accent">Web</span>Studio</a
       >
       <nav class="header-nav">
         <ul class="header-nav-list">
-          <li class="header-nav-list">
+          <li class="header-nav-item">
             <a class="header-nav-link" href="#features">Features</a>
           </li>
-          <li class="header-nav-list">
+          <li class="header-nav-item">
             <a class="header-nav-link" href="#team">Team</a>
           </li>
-          <li class="header-nav-list">
+          <li class="header-nav-item">
             <a class="header-nav-link" href="#portfolio">Portfolio</a>
           </li>
         </ul>
@@ -46,10 +46,12 @@
       <address>
         <ul>
           <li class="header-adress-link">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
           </li>
-          <li class="header-adress-link">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="header-address-item">
+            <a class="header-address-link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
           </li>
         </ul>
       </address>
@@ -58,7 +60,7 @@
 
     <main>
       <!-- region Hero -->
-      <section id="hero">
+      <section id="hero" class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <div class="hero-control">
           <button type="button" class="btn">Order Service</button>
@@ -91,8 +93,7 @@
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            class="features-items"
+          <li class="features-items">
             <h3 class="features-caption">Technologies</h3>
             <p class="features-desc">
               Design practice focused on digital experiences. We bring forth a
