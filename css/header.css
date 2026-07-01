@@ -19,5 +19,5 @@
 
 .header-adress-link:hover, 
 .header-adress-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
