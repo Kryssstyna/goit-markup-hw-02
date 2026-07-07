@@ -60,6 +60,6 @@ address {
   color: #ffffff;
   background-color: var(--accent-color);
   border: none;
-  border-radius: 4x;
+  border-radius: 4px;
 }
 /* endregion common style  */
